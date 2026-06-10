@@ -85,11 +85,11 @@ export default function HeroSection() {
               </p>
 
               {/* Benefits List */}
-              <div className="grid sm:grid-cols-2 gap-3 pt-4 max-w-3xl mx-auto text-left">
+              <div className="grid sm:grid-cols-2 gap-2 sm:gap-3 pt-4 max-w-3xl mx-auto text-left">
                 {benefits.map((benefit, index) => (
-                  <div key={index} className="flex items-start gap-3 bg-[#021326]/60 rounded-lg p-3 border border-white/[0.08] backdrop-blur-sm">
-                    <CheckCircle2 className="w-5 h-5 text-[#14E8F0] flex-shrink-0 mt-0.5" />
-                    <span className="text-white/85 text-sm lg:text-base">
+                  <div key={index} className="flex items-start gap-2 sm:gap-3 bg-[#021326]/60 rounded-lg p-2 sm:p-3 border border-white/[0.08] backdrop-blur-sm">
+                    <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#14E8F0] flex-shrink-0 mt-0.5" />
+                    <span className="text-white/85 text-xs sm:text-sm lg:text-base">
                       {benefit}
                     </span>
                   </div>
@@ -97,27 +97,27 @@ export default function HeroSection() {
               </div>
 
               {/* Event Details Badge */}
-              <div className="flex flex-wrap items-center justify-center gap-4 pt-6">
-                <div className="flex items-center gap-2 px-5 py-3 rounded-full border border-[#14E8F0]/40 bg-[#021326]/70 backdrop-blur-sm">
-                  <span className="text-[#14E8F0] text-sm font-semibold">📍 29-30 June | Hotel Mouradi Club Kantaoui, Sousse</span>
+              <div className="flex flex-wrap items-center justify-center gap-2 sm:gap-4 pt-6">
+                <div className="flex items-center gap-2 px-3 sm:px-5 py-2 sm:py-3 rounded-full border border-[#14E8F0]/40 bg-[#021326]/70 backdrop-blur-sm">
+                  <span className="text-[#14E8F0] text-xs sm:text-sm font-semibold">📍 29-30 June | Hotel Mouradi Club Kantaoui, Sousse</span>
                 </div>
-                <div className="flex items-center gap-2 px-5 py-3 rounded-full border border-red-500/40 bg-[#021326]/70 backdrop-blur-sm">
-                  <span className="text-red-400 text-sm font-semibold">🎯 Limited Seats Available</span>
+                <div className="flex items-center gap-2 px-3 sm:px-5 py-2 sm:py-3 rounded-full border border-red-500/40 bg-[#021326]/70 backdrop-blur-sm">
+                  <span className="text-red-400 text-xs sm:text-sm font-semibold">🎯 Limited Seats Available</span>
                 </div>
               </div>
 
               {/* CTA Buttons */}
-              <div className="flex flex-col sm:flex-row gap-4 pt-6 justify-center">
+              <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 pt-6 justify-center">
                 <Button 
                   onClick={scrollToPricing}
-                  className="bg-[#14E8F0] text-[#021326] hover:bg-[#14E8F0]/90 font-semibold px-10 py-7 text-lg rounded-full shadow-[0_0_30px_rgba(20,232,240,0.4)] transition-all"
+                  className="bg-[#14E8F0] text-[#021326] hover:bg-[#14E8F0]/90 font-semibold px-8 sm:px-10 py-6 sm:py-7 text-base sm:text-lg rounded-full shadow-[0_0_30px_rgba(20,232,240,0.4)] transition-all"
                 >
                   Reserve Your Spot
                 </Button>
                 <Button 
                   onClick={handleViewProgram}
                   variant="outline"
-                  className="bg-[#021326]/70 text-white border-white/30 hover:bg-[#021326]/90 font-semibold px-10 py-7 text-lg rounded-full backdrop-blur-sm transition-all"
+                  className="bg-[#021326]/70 text-white border-white/30 hover:bg-[#021326]/90 font-semibold px-8 sm:px-10 py-6 sm:py-7 text-base sm:text-lg rounded-full backdrop-blur-sm transition-all"
                 >
                   View Full Program
                 </Button>

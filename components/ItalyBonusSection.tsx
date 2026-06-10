@@ -26,7 +26,7 @@ export default function ItalyBonusSection() {
           </div>
 
           {/* Heading */}
-          <h2 className="font-serif text-3xl lg:text-4xl xl:text-5xl font-medium text-[#F5F5F5] leading-[1.2] tracking-tight mb-4">
+          <h2 className="font-serif text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-medium text-[#F5F5F5] leading-[1.2] tracking-tight mb-4">
             Italy Immersion{" "}
             <span 
               className="italic text-[#14E8F0]"
