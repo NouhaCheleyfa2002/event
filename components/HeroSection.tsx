@@ -16,7 +16,7 @@ export default function HeroSection() {
   };
 
   const benefits = [
-    "Scholarships & Erasmus Programs",
+    "Scholarships & International Programs",
     "International Internships & Exchanges",
     "Research & Academic Opportunities",
     "Startup Funding & Innovation Programs",
@@ -76,7 +76,7 @@ export default function HeroSection() {
 
               {/* Subheadline */}
               <p className="text-xl lg:text-2xl font-serif text-white/95 leading-relaxed max-w-3xl mx-auto">
-                Scholarships. Erasmus+. International Internships. Research Programs. Startup Funding. Global Careers.
+                Scholarships. International Internships. Research Programs. Startup Funding. Global Careers.
               </p>
 
               {/* Supporting Text */}

@@ -6,7 +6,7 @@ export default function AgendaSection() {
       title: "Education",
       items: [
         "Scholarships",
-        "Erasmus+",
+        "International Programs",
         "Master's Programs",
         "PhD Opportunities",
         "Academic Exchanges"
@@ -63,7 +63,7 @@ export default function AgendaSection() {
             </span>
           </h2>
           <p className="text-white/70 text-lg lg:text-xl max-w-3xl mx-auto leading-relaxed">
-            Most people think international mobility is only Erasmus. The reality is much bigger.
+            Most people think international mobility is only about one program. The reality is much bigger.
           </p>
         </div>
 
