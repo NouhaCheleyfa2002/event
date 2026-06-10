@@ -56,7 +56,9 @@ export default function Footer() {
             {/* Social Links */}
             <div className="flex items-center gap-4 pt-4">
               <a 
-                href="#" 
+                href="https://www.linkedin.com/company/study-internship-abroad-programs/?viewAsMember=true" 
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-white/5 hover:bg-[#14E8F0]/20 border border-white/10 hover:border-[#14E8F0]/40 flex items-center justify-center transition-all group"
                 aria-label="LinkedIn"
               >
@@ -65,16 +67,9 @@ export default function Footer() {
                 </svg>
               </a>
               <a 
-                href="#" 
-                className="w-10 h-10 rounded-full bg-white/5 hover:bg-[#14E8F0]/20 border border-white/10 hover:border-[#14E8F0]/40 flex items-center justify-center transition-all group"
-                aria-label="Twitter"
-              >
-                <svg className="w-5 h-5 text-white/60 group-hover:text-[#14E8F0]" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
-                </svg>
-              </a>
-              <a 
-                href="#" 
+                href="https://www.instagram.com/mobility.programs.2026/?hl=en" 
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-white/5 hover:bg-[#14E8F0]/20 border border-white/10 hover:border-[#14E8F0]/40 flex items-center justify-center transition-all group"
                 aria-label="Instagram"
               >
