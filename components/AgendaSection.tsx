@@ -63,9 +63,6 @@ export default function AgendaSection() {
                 <h3 className="font-serif text-3xl lg:text-4xl font-medium text-[#F5F5F5] tracking-tight">
                   {agenda.day01.title}
                 </h3>
-                <p className="text-white/50 text-sm uppercase tracking-wider">
-                  {agenda.day01.subtitle}
-                </p>
               </div>
 
               <div className="space-y-6">
@@ -92,9 +89,6 @@ export default function AgendaSection() {
                 <h3 className="font-serif text-3xl lg:text-4xl font-medium text-[#F5F5F5] tracking-tight">
                   {agenda.day02.title}
                 </h3>
-                <p className="text-white/50 text-sm uppercase tracking-wider">
-                  {agenda.day02.subtitle}
-                </p>
               </div>
 
               <div className="space-y-6">
