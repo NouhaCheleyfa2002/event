@@ -1,6 +1,6 @@
 import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
-// import VideoSection from "@/components/VideoSection";
+import SponsorsSection from "@/components/SponsorsSection";
 import StatsSection from "@/components/StatsSection";
 import AgendaSection from "@/components/AgendaSection";
 // import TestimonialsSection from "@/components/TestimonialsSection";
@@ -12,7 +12,7 @@ export default function Home() {
     <div className="min-h-screen bg-[#021326]">
       <Navbar />
       <HeroSection />
-      {/* <VideoSection /> */}
+      <SponsorsSection />
       <StatsSection />
       <AgendaSection />
       {/* <TestimonialsSection /> */}

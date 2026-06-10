@@ -28,12 +28,13 @@ export default function PricingSection() {
       subtitle: "per participant (min. 28)",
       features: [
         "Full program access",
-        "Workshops and networking sessions",
+        "Interactive workshops",
+        "Networking sessions",
         "Participation certificate",
-        "Event materials",
-        "Preferential group rate",
+        "Event materials & templates",
         "One night accommodation",
-        "Lunch and dinner included"
+        "All meals included",
+        "Post-event guidance access"
       ],
       featured: false
     },
@@ -50,7 +51,7 @@ export default function PricingSection() {
         "Participation certificate",
         "Event materials & templates",
         "One night accommodation",
-        "Lunch and dinner included",
+        "All meals included",
         "Post-event guidance access"
       ],
       featured: true,
