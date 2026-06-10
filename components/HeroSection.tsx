@@ -5,7 +5,7 @@ import { CheckCircle2 } from "lucide-react";
 
 export default function HeroSection() {
   const handleViewProgram = () => {
-    window.open("https://app.notion.com/p/International-Mobility-Global-Opportunities-Experience-378d7bbf56208068bed8c700168dc3c6?source=copy_link", "_blank");
+    window.open("https://app.notion.com/p/International-Mobility-Global-Opportunities-Experience-378d7bbf56208068bed8c700148dc3c6?source=copy_link", "_blank");
   };
 
   const scrollToPricing = () => {
@@ -99,7 +99,7 @@ export default function HeroSection() {
               {/* Event Details Badge */}
               <div className="flex flex-wrap items-center justify-center gap-4 pt-6">
                 <div className="flex items-center gap-2 px-5 py-3 rounded-full border border-[#14E8F0]/40 bg-[#021326]/70 backdrop-blur-sm">
-                  <span className="text-[#14E8F0] text-sm font-semibold">📍 Sousse | June 2026</span>
+                  <span className="text-[#14E8F0] text-sm font-semibold">📍 29-30 June | Hotel Mouradi Club Kantaoui, Sousse</span>
                 </div>
                 <div className="flex items-center gap-2 px-5 py-3 rounded-full border border-red-500/40 bg-[#021326]/70 backdrop-blur-sm">
                   <span className="text-red-400 text-sm font-semibold">🎯 Limited Seats Available</span>
