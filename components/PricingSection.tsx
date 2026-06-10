@@ -85,7 +85,7 @@ export default function PricingSection() {
         {/* Section Heading */}
         <div className="text-center space-y-6 max-w-3xl mx-auto">
           <h2 className="font-serif text-4xl lg:text-5xl xl:text-6xl font-medium leading-[1.2] tracking-tight">
-            <span className="text-[#F5F5F5]">Pick the pass that </span>
+            <span className="text-[#F5F5F5]">Invest In Opportunities </span>
             <span 
               className="italic text-[#14E8F0]"
               style={{
@@ -95,12 +95,11 @@ export default function PricingSection() {
                 `
               }}
             >
-              fits you.
+              That Could Change Your Future
             </span>
           </h2>
           <p className="text-white/75 text-base lg:text-lg leading-relaxed font-light">
-            Choose the experience that aligns with your goals. All passes include 
-            access to our international mobility experts and funding opportunities.
+            Whether you're a student, researcher, entrepreneur, or professional, this experience gives you access to opportunities that many people spend years trying to discover on their own.
           </p>
         </div>
 
