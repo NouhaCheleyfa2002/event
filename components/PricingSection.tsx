@@ -4,7 +4,7 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import RegistrationModal from "@/components/RegistrationModal";
 
-type PackageType = "group" | "student" | "professional";
+type PackageType = "group" | "student" | "student_no_hotel" | "professional";
 
 export default function PricingSection() {
   const [modalOpen, setModalOpen] = useState(false);
@@ -33,6 +33,23 @@ export default function PricingSection() {
         "Participation certificate",
         "Event materials & templates",
         "One night accommodation",
+        "All meals included",
+        "Post-event guidance access"
+      ],
+      featured: false
+    },
+    {
+      name: "Student Package (No Hotel)",
+      type: "student_no_hotel" as PackageType,
+      description: "For students who don't need accommodation",
+      price: "760",
+      currency: "DT",
+      features: [
+        "Full program access",
+        "Interactive workshops",
+        "Networking sessions",
+        "Participation certificate",
+        "Event materials & templates",
         "All meals included",
         "Post-event guidance access"
       ],
@@ -104,9 +121,9 @@ export default function PricingSection() {
         </div>
 
         {/* Pricing Cards */}
-        <div className="grid lg:grid-cols-3 gap-8 items-start">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {pricingPlans.map((plan, index) => (
-            <div key={index} className="relative">
+            <div key={index} className="relative flex flex-col">
               
               {/* Featured Badge */}
               {plan.featured && (
@@ -122,7 +139,7 @@ export default function PricingSection() {
               {/* Card */}
               <div 
                 className={`
-                  relative rounded-[28px] bg-[#03182D] p-10 lg:p-12 space-y-8 h-full
+                  relative rounded-[28px] bg-[#03182D] p-10 lg:p-12 space-y-8 flex-1 flex flex-col
                   ${plan.featured 
                     ? 'border border-[#14E8F0]/80 shadow-[0_0_30px_rgba(20,232,240,0.25)]' 
                     : 'border border-white/[0.06]'
@@ -166,7 +183,7 @@ export default function PricingSection() {
                 </div>
 
                 {/* Features */}
-                <div className="space-y-4 pt-4 border-t border-white/[0.08]">
+                <div className="space-y-4 pt-4 border-t border-white/[0.08] flex-1">
                   {plan.features.map((feature, idx) => (
                     <div key={idx} className="flex items-start gap-3">
                       <span className="text-[#14E8F0] mt-1 flex-shrink-0">—</span>
@@ -178,7 +195,7 @@ export default function PricingSection() {
                 </div>
 
                 {/* CTA Button */}
-                <div className="pt-6">
+                <div className="pt-6 mt-auto">
                   {plan.featured ? (
                     <Button 
                       onClick={() => handleRegister(plan.type, plan.name)}

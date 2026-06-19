@@ -13,7 +13,7 @@ CREATE TABLE IF NOT EXISTS participants (
   phone TEXT,
   university TEXT,
   study_level TEXT,
-  package_type TEXT NOT NULL CHECK (package_type IN ('group', 'student', 'professional')),
+  package_type TEXT NOT NULL CHECK (package_type IN ('group', 'student', 'student_no_hotel', 'professional')),
   payment_status TEXT DEFAULT 'pending' CHECK (payment_status IN ('pending', 'paid', 'cancelled')),
   payment_proof_url TEXT,
   registered_at TIMESTAMPTZ DEFAULT NOW(),

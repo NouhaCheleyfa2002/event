@@ -99,10 +99,10 @@ export default function HeroSection() {
               {/* Event Details Badge */}
               <div className="flex flex-wrap items-center justify-center gap-2 sm:gap-4 pt-6">
                 <div className="flex items-center gap-2 px-3 sm:px-5 py-2 sm:py-3 rounded-full border border-[#14E8F0]/40 bg-[#021326]/70 backdrop-blur-sm">
-                  <span className="text-[#14E8F0] text-xs sm:text-sm font-semibold">📍 29-30 June | Hotel Mouradi Club Kantaoui, Sousse</span>
+                  <span className="text-[#14E8F0] text-xs sm:text-sm font-semibold">📍 30 June - 1 July | Hotel Mouradi Club Kantaoui, Sousse</span>
                 </div>
                 <div className="flex items-center gap-2 px-3 sm:px-5 py-2 sm:py-3 rounded-full border border-red-500/40 bg-[#021326]/70 backdrop-blur-sm">
-                  <span className="text-red-400 text-xs sm:text-sm font-semibold">🎯 Limited Seats Available</span>
+                  <span className="text-red-400 text-xs sm:text-sm font-semibold">⏰ Apply by June 25th</span>
                 </div>
               </div>
 

@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { CheckCircle2, AlertCircle } from "lucide-react";
 import { supabase } from "@/lib/supabase";
 
-type PackageType = "group" | "student" | "professional";
+type PackageType = "group" | "student" | "student_no_hotel" | "professional";
 
 interface RegistrationModalProps {
   isOpen: boolean;
